@@ -1,0 +1,9 @@
+spring:
+  # JACKSON
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+  data:
+    # MONGO DB
+    mongodb:
+      database: kotlin-db
