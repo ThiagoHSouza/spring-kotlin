@@ -7,8 +7,8 @@ import java.time.LocalDate
 @Document
 data class Pessoa (
 	@Id val id : String? = null,
-	val name : String = "",
-	val cpf : String = "",
-	val email : String = "",
-	val dataNascimento : LocalDate = LocalDate.now()
+	val name : String? = null,
+	val cpf : String? = null,
+	val email : String? = null,
+	val dataNascimento : LocalDate? = null
 )
